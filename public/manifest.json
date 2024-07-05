@@ -1,0 +1,34 @@
+{
+  "short_name": "Find My Goat",
+  "name": "Encuentra donde dejaste tu cabra",
+  "start_url": "/",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/svg-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "1200x1200"
+    },
+    {
+      "src": "/assets/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot.png",
+      "type": "image/png",
+      "sizes": "1170x2532",
+      "form_factor": "narrow"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+.c-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.5rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 2vw;
+  z-index: 401;
+
+  &__top-item {
+    top: 1rem;
+    right: 2vw;
+    z-index: 401;
+    position: absolute;
+    border-radius: 2rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #1affb6;
+    border: 2px solid #04a874;
+    color: #000;
+    font-weight: 600;
+
+    &--withoutGoat {
+      background-color: #fc8282;
+      border: 2px solid #f75c5c;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    background-color: #1affb6;
+    border: 2px solid #04a874;
+    aspect-ratio: 1;
+    border-radius: 2rem;
+
+    &:disabled {
+      opacity: 0.5;
+    }
+
+    &--location {
+      background-color: #aac6f5;
+      border: 2px solid #4171c4;
+    }
+  }
+}
